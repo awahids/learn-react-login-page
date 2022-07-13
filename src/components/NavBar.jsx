@@ -4,7 +4,7 @@ const NavBar = () => {
       <span className="logo">Learn React</span>
       <ul className="nav-list">
         <li className="nav-item">
-          <img src="" alt="" className="avatar" />
+          <img src="https://pbs.twimg.com/profile_images/1490533817416925189/oDKK6UFj_400x400.jpg" alt="avatar" className="avatar" />
         </li>
         <li className="nav-item">John Doe</li>
         <li className="nav-item">Logout</li>
