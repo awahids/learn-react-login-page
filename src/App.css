@@ -29,5 +29,42 @@
   height: 32px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: auto;
+}
+
+.home {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  padding: 10px;
+  -webkit-box-shadow: -1px 3px 15px -4px rgba(0,0,0,0.72);
+  box-shadow: -1px 3px 15px -4px rgba(0,0,0,0.72);  
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+.desc {
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.cardBtn {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(4, 184, 178);
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
 }
