@@ -1,6 +1,6 @@
 .navbar {
   height: 50px;
-  background-color: rgba(102, 16, 83, 0.698);
+  background-color: rgba(22, 101, 106, 0.698);
   color: white;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@
   box-shadow: -1px 3px 15px -4px rgba(0,0,0,0.72);
 }
 
-.img {
+img {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -59,7 +59,7 @@
   line-height: 25px;
 }
 
-.cardBtn {
+.card-btn {
   border: none;
   border-radius: 10px;
   background-color: rgba(7, 128, 115, 0.678);
@@ -115,14 +115,14 @@
 }
 
 
-.left, .right{
+.left, .right {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.center{
+.center {
   height: 100%;
   display: flex;
   align-items: center;
@@ -130,7 +130,7 @@
   position: relative;
 }
 
-.or{
+.or {
   border: 2px solid lightgray;
   border-radius: 50%;
   padding: 10px;
@@ -139,7 +139,7 @@
   font-weight: bold;
 }
 
-.line{
+.line {
   width: 0.5px;
   height: 70%;
   background-color: lightgray;
@@ -152,8 +152,9 @@
   z-index: -1;
 }
 
-.login-btn{
+.login-btn {
   width: 150px;
+  height: 40px;
   padding: 15px 25px;
   border-radius: 5px;
   color: rgb(255, 255, 255);
@@ -164,17 +165,18 @@
   cursor: pointer;
 }
 
-.google{
+.google {
   background-color: #df4930;
 }
-.facebook{
+.facebook {
   background-color: #507cc0;
 }
-.github{
+.github {
   background-color: black;
+
 }
 
-.login-icon{
+.login-icon {
   width: 30px;
   height: 30px;
   margin-right: 10px;
@@ -199,5 +201,10 @@ input {
 .login-title {
   position: absolute;
   top: 150px;
-  color: lightgray;
+  color:lightgray
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
 }
