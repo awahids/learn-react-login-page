@@ -1,9 +1,12 @@
 import Google from '../assets/img/google.png'
 import Facebook from '../assets/img/facebook.png'
 import Github from '../assets/img/github.png'
-import LoginIcon from '../assets/img/login.gif'
 
 const Login = () => {
+  const google = () => {
+    window.open('http://localhost:5000/auth/google', '_self')
+  }
+
   return (
     <div className='login'>
       <h1 className="login-title">
@@ -11,7 +14,7 @@ const Login = () => {
       </h1>
       <div className="wrapper">
         <div className="left">
-          <div className="login-btn google">
+          <div className="login-btn google" onClick={ google }>
             <img src={ Google } alt="" className="login-icon" />
             Google
           </div>
