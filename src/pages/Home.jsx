@@ -1,5 +1,5 @@
 import Card from '../components/Card';
-import { posts } from '../data'
+import { posts } from '../data';
 
 const Home = () => {
   return (
@@ -9,6 +9,6 @@ const Home = () => {
       )) }
     </div>
   );
-}
+};
 
 export default Home;

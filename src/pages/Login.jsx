@@ -1,11 +1,19 @@
-import Google from '../assets/img/google.png'
-import Facebook from '../assets/img/facebook.png'
-import Github from '../assets/img/github.png'
+import Google from '../assets/img/google.png';
+import Facebook from '../assets/img/facebook.png';
+import Github from '../assets/img/github.png';
 
 const Login = () => {
   const google = () => {
-    window.open('http://localhost:5000/auth/google', '_self')
-  }
+    window.open('http://localhost:5000/auth/google', '_self');
+  };
+
+  const facebook = () => {
+    window.open('http://localhost:5000/auth/facebook', '_self');
+  };
+
+  const github = () => {
+    window.open('http://localhost:5000/auth/github', '_self');
+  };
 
   return (
     <div className='login'>
@@ -41,6 +49,6 @@ const Login = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Login;

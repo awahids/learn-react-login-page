@@ -1,4 +1,4 @@
-import { posts } from '../data'
+import { posts } from '../data';
 import { useLocation } from 'react-router';
 
 const Post = () => {
@@ -6,6 +6,7 @@ const Post = () => {
   const path = location.pathname.split('/')[2];
   const post = posts.find(post => post.id.toString() === path);
   
+  console.log(location);
   return (
     <div className="post">
       <img src={post.img} alt="" className="post-img" />
@@ -14,6 +15,6 @@ const Post = () => {
       <p className="post-long-desc">{post.longDesc}</p>
     </div>
   );
-}
+};
 
 export default Post;

@@ -17,6 +17,6 @@ const Card = ({ post }) => {
       </Link>
     </div>
   );
-}
+};
 
 export default Card;
