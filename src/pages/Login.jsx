@@ -1,5 +1,5 @@
 import Google from '../assets/img/google.png';
-import Facebook from '../assets/img/facebook.png';
+import Twitter from '../assets/img/twitter.png';
 import Github from '../assets/img/github.png';
 
 const Login = () => {
@@ -7,8 +7,8 @@ const Login = () => {
     window.open('http://localhost:5000/auth/google', '_self');
   };
 
-  const facebook = () => {
-    window.open('http://localhost:5000/auth/facebook', '_self');
+  const twitter = () => {
+    window.open('http://localhost:5000/auth/twitter', '_self');
   };
 
   const github = () => {
@@ -26,11 +26,11 @@ const Login = () => {
             <img src={ Google } alt="" className="login-icon" />
             Google
           </div>
-          <div className="login-btn facebook">
-            <img src={ Facebook } alt="" className="login-icon" />
-            Facebook
+          <div className="login-btn twitter" onClick={ twitter }>
+            <img src={ Twitter } alt="" className="login-icon" />
+            Twitter
           </div>
-          <div className="login-btn github">
+          <div className="login-btn github" onClick={ github }>
             <img src={ Github } alt="" className="login-icon" />
             Github
           </div>
