@@ -11,7 +11,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch('http://localhost:3000/auth/login/success', {
+      fetch('https://learn-react-login-page.vercel.app/auth/login/success', {
         method: 'GET',
         credentials: 'include',
         headers: {
