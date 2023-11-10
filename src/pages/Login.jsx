@@ -4,15 +4,15 @@ import Github from '../assets/img/github.png';
 
 const Login = () => {
   const google = () => {
-    window.open('http://localhost:5000/auth/google', '_self');
+    window.open('https://learn-react-login-page.vercel.app/auth/google', '_self');
   };
 
   const twitter = () => {
-    window.open('http://localhost:5000/auth/twitter', '_self');
+    window.open('https://learn-react-login-page.vercel.app/auth/twitter', '_self');
   };
 
   const github = () => {
-    window.open('http://localhost:5000/auth/github', '_self');
+    window.open('https://learn-react-login-page.vercel.app/auth/github', '_self');
   };
 
   return (
